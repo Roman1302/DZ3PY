@@ -2,9 +2,12 @@
 Напишите программу, которая найдёт сумму элементов списка, стоящих на нечётной позиции.
 *Пример:*
 - [2, 3, 5, 9, 3] -> на нечётных позициях элементы 3 и 9, ответ: 12'''
+
 import os
 clear = lambda: os.system('clear')
 clear()
+
+print("\n***Программа суммы элементов списка, стоящих на нечётной позициях***")
 
 from random import randint
 
@@ -19,7 +22,7 @@ def sum_randome(list_len):
     for i in range(1, len(lst) , 2):
         a=lst[i]
         c+=a
-    print("->", c)
+    print("\n->", c)
 
 try:
     lit_length=int(input("\nВведите целое число случайных чисел: "))
