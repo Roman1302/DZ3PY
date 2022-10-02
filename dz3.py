@@ -12,7 +12,7 @@ print("\n***Программа нахождения разницы между м
 
 import random
 
-def composition(list_len):
+def difference(list_len):
     lst = [None] * list_len
     for i in range(list_len):
         lst[i] = round(random.uniform(0.0, 119.9),2)
@@ -43,6 +43,6 @@ def composition(list_len):
 
 try:
     lit_length=int(input("\nВведите целое число случайных чисел: "))
-    composition(lit_length)
+    difference(lit_length)
 except:
     print("\nНужно вводить число!")
