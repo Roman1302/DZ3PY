@@ -46,8 +46,3 @@ try:
     composition(lit_length)
 except:
     print("\nНужно вводить число!")
-
-
-
-
-
