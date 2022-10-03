@@ -22,7 +22,7 @@ def binary(num):
                 num = num // 2
         else:
             result.reverse()
-            print(*result, sep="")
+            print("=>", *result, sep="")
             break
 
 try:
